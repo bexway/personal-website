@@ -1,0 +1,24 @@
+:root {
+    --salmon: #FE9E83;
+    --dark-pink: #F4646A;
+    --light-pink: #FCBABA;
+    --dark-purple: #685380;
+    --light-purple: #cbc1d7;
+    /* --dark-sky: #6CB1B1;
+    --light-sky: #8ECECB; */
+    /* --navy: #375C6F; */
+
+
+    /* --light-gray: #E8E8E8; */
+    --light-gray: #CACACA;
+    --dark-gray: #494949;
+
+    /* http://frame.bloglovin.com/?post=5268129621&blog=13978127 */
+    --dark-green: #213502;
+    --green: #7fa00e;
+    --light-green: #d4f26c;
+    --yellow-green: #dcda65;
+    --sky: #53c0cc;
+    --light-sky: #bde7eb;
+    --navy: #375C6F;
+}

@@ -1,0 +1,11 @@
+@import "imports/colors.css";
+@import "imports/reset.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--navy);
+    display: flex;
+}
