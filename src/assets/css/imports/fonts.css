@@ -15,6 +15,18 @@
     color: var(--yellow)
 }
 
+.fcolor-dkpink{
+    color: var(--dark-pink)
+}
+
+.fcolor-dkteal{
+    color: var(--dark-teal)
+}
+
+.fcolor-lightteal{
+    color: var(--light-teal)
+}
+
 .fcolor-white{
     color: white;
 }

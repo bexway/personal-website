@@ -43,7 +43,7 @@ table {
 /* http://frame.bloglovin.com/?post=5268129621&blog=13978127 */
 
 .fcolor-green{
-    color: #7fa00e;
+    color: #9cc411;
 }
 
 .fcolor-blue{
@@ -52,6 +52,18 @@ table {
 
 .fcolor-yellow{
     color: #dbd709
+}
+
+.fcolor-dkpink{
+    color: #F4646A
+}
+
+.fcolor-dkteal{
+    color: #6CB1B1
+}
+
+.fcolor-lightteal{
+    color: #8ECECB
 }
 
 .fcolor-white{
@@ -81,19 +93,27 @@ table {
     border-radius: 100px;
 }
 
+.proj-desc{
+    font-size: 1.5em
+}
+
 .proj-elem{
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 1em;
+}
+
+.proj-text{
+    line-height: 2em;
 }
 
 .proj-title {
-    
+    font-size: 2em;
+    font-weight: 200;
 }
 
 .section{

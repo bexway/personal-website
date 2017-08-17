@@ -24,13 +24,23 @@
     border-radius: 100px;
 }
 
+.proj-desc{
+    font-size: 1.25em
+}
+
 .proj-elem{
 	display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 1em;
+}
+
+.proj-text{
+    line-height: 2em;
 }
 
 .proj-title {
-    
+    font-size: 2em;
+    font-weight: 200;
 }
 
 .section{
