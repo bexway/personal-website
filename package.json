@@ -22,7 +22,11 @@
   "homepage": "https://github.com/bexway/personal-website#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
+    "postcss": "^6.0.9",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-scss": "^1.0.2",
     "postcss-simple-vars": "^4.0.0",
+    "precss": "^2.0.0",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.6.1"
   },
