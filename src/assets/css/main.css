@@ -2,6 +2,8 @@
 @import "imports/colors.css";
 @import "imports/fonts.css";
 
+/* MAIN CSS FILE */
+
 * {
     box-sizing: border-box;
 }
@@ -13,4 +15,13 @@
 
 .header * {
     margin: auto;
+}
+
+.proj-img{
+    border-radius: 100px;
+}
+
+.proj-elem{
+	display: flex;
+	justify-content: flex-start;
 }
