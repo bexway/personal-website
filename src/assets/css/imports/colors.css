@@ -1,3 +1,5 @@
+    /* http://frame.bloglovin.com/?post=5268129621&blog=13978127 */
+
 :root {
     --salmon: #FE9E83;
     --dark-pink: #F4646A;
@@ -10,7 +12,6 @@
     --light-gray: #CACACA;
     --dark-gray: #494949;
 
-    /* http://frame.bloglovin.com/?post=5268129621&blog=13978127 */
     --dark-green: #213502;
     --green: #7fa00e;
     --light-green: #d4f26c;
@@ -18,4 +19,8 @@
     --sky: #53c0cc;
     --light-sky: #bde7eb;
     --navy: #375C6F;
+    --light-navy: #5187a3;
+
+    --blue: #3c86d9;
+    --yellow: #dbd709;
 }

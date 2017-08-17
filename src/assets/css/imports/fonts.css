@@ -2,3 +2,18 @@
     --ff-quicksand: 'Quicksand', sans-serif;
 }
 
+.fcolor-green{
+    color: var(--green);
+}
+
+.fcolor-blue{
+    color: var(--blue);
+}
+
+.fcolor-yellow{
+    color: var(--yellow)
+}
+
+.fcolor-white{
+    color: white;
+}

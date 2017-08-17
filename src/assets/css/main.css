@@ -9,12 +9,15 @@
 }
 
 .header{
-    background-color: var(--dark-teal);
+    background-color: var(--dark-gray);
     text-align: center;
+    font-family: var(--ff-quicksand);
+    padding: .75em;
 }
 
 .header * {
     margin: auto;
+    padding: 5px 0px;
 }
 
 .proj-img{
@@ -24,4 +27,18 @@
 .proj-elem{
 	display: flex;
 	justify-content: flex-start;
+}
+
+.proj-title
+
+.section{
+    font-family: var(--ff-quicksand);
+    padding: .75em;
+}
+
+.section-title{
+    font-size: 2em;
+    color: var(--navy);
+    font-weight: bold;
+    line-height: 2em;
 }
