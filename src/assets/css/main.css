@@ -27,7 +27,10 @@
 }
 
 .link-bar {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0em;
 }
 
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
@@ -38,6 +41,7 @@
     -moz-border-radius: .5em;
     -webkit-border-radius: .5em;
     border-radius: .5em;
+    margin: 0em 1em;
 }
 
 .main-content {
@@ -99,18 +103,29 @@
     line-height: 1.5em;
 }
 
-.skills-list ul li {
+/* .skills-list ul li {
     display: list-item;
     list-style-type: circle;
-}
+} */
 
 .ul-circle {
     width: .25em;
     height: .25em;
-    background: var(--blue);;
-    -moz-border-radius: .125em;
-    -webkit-border-radius: .125em;
-    border-radius: .125em;
+    background: var(--blue);
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;
+    margin-right: .5em;
+    display: inline-block;
+}
+
+.ul-ul-circle {
+    width: .4em;
+    height: .4em;
+    border: 2px solid var(--light-teal);
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;
     margin-right: .5em;
     display: inline-block;
 }

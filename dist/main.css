@@ -96,7 +96,16 @@ table {
 }
 
 .link-bar {
-    display: inline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1.5em 0em;
 }
 
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
@@ -106,6 +115,7 @@ table {
     height: 1em;
     background: #3c86d9;
     border-radius: .5em;
+    margin: 0em 1em;
 }
 
 .main-content {
@@ -176,16 +186,25 @@ table {
     line-height: 1.5em;
 }
 
-.skills-list ul li {
+/* .skills-list ul li {
     display: list-item;
     list-style-type: circle;
-}
+} */
 
 .ul-circle {
     width: .25em;
     height: .25em;
     background: #3c86d9;
-    border-radius: .125em;
+    border-radius: .5em;
+    margin-right: .5em;
+    display: inline-block;
+}
+
+.ul-ul-circle {
+    width: .4em;
+    height: .4em;
+    border: 2px solid #8ECECB;
+    border-radius: .5em;
     margin-right: .5em;
     display: inline-block;
 }
