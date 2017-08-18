@@ -1,0 +1,9 @@
+@keyframes expand-circle {
+from {
+    border-radius: 100px;
+}
+
+to {
+    border-radius: 0px;
+}
+}

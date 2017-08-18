@@ -37,3 +37,17 @@
 .about-link:active {
     text-decoration: underline;
 }
+
+/* project links */
+
+.about-link:link {
+    color: var(--navy);
+}
+
+.about-link:visited {
+    color: var(--light-navy)
+}
+
+.about-link:focus {
+    color: var(--sky);
+}

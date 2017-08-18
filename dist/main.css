@@ -110,6 +110,40 @@ table {
     text-decoration: underline;
 }
 
+/* project links */
+
+.about-link:link {
+    color: #375C6F;
+}
+
+.about-link:visited {
+    color: #5187a3
+}
+
+.about-link:focus {
+    color: #53c0cc;
+}
+
+@-webkit-keyframes expand-circle {
+from {
+    border-radius: 100px;
+}
+
+to {
+    border-radius: 0px;
+}
+}
+
+@keyframes expand-circle {
+from {
+    border-radius: 100px;
+}
+
+to {
+    border-radius: 0px;
+}
+}
+
 /* MAIN CSS FILE */
 
 * {
@@ -134,7 +168,7 @@ table {
     padding: .75em;
 }
 
-.header p, a {
+.header p, header a {
     font-size: 1.25em;
     margin: auto;
     padding-bottom: .5em;
@@ -161,8 +195,8 @@ table {
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 
 .link-circle {
-    width: 1em;
-    height: 1em;
+    width: .75em;
+    height: .75em;
     background: #3c86d9;
     border-radius: .5em;
 }
@@ -172,7 +206,17 @@ table {
 }
 
 .proj-img{
-    border-radius: 100px;
+    border-radius: 200px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.proj-img:hover{
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: expand-circle;
+            animation-name: expand-circle;
+    border-radius: 0px;
 }
 
 .proj-desc{
@@ -181,9 +225,9 @@ table {
 
 .proj-elem{
 	display: block;
-    /* justify-content: flex-start; */
     padding: 1em;
     margin: 0em auto;
+    width: 51%;
 }
 
 .proj-text{
@@ -235,11 +279,6 @@ table {
     line-height: 1.5em;
 }
 
-/* .skills-list ul li {
-    display: list-item;
-    list-style-type: circle;
-} */
-
 .ul-circle {
     width: .25em;
     height: .25em;
@@ -257,3 +296,4 @@ table {
     margin-right: .5em;
     display: inline-block;
 }
+  

@@ -2,6 +2,7 @@
 @import "imports/colors.css";
 @import "imports/fonts.css";
 @import "imports/links.css";
+@import "imports/animations.css";
 
 /* MAIN CSS FILE */
 
@@ -59,7 +60,15 @@
 }
 
 .proj-img{
-    border-radius: 100px;
+    border-radius: 200px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.proj-img:hover{
+    animation-duration: 1s;
+    animation-name: expand-circle;
+    border-radius: 0px;
 }
 
 .proj-desc{
@@ -68,9 +77,9 @@
 
 .proj-elem{
 	display: block;
-    /* justify-content: flex-start; */
     padding: 1em;
     margin: 0em auto;
+    width: 51%;
 }
 
 .proj-text{
@@ -113,11 +122,6 @@
     line-height: 1.5em;
 }
 
-/* .skills-list ul li {
-    display: list-item;
-    list-style-type: circle;
-} */
-
 .ul-circle {
     width: .25em;
     height: .25em;
@@ -139,3 +143,4 @@
     margin-right: .5em;
     display: inline-block;
 }
+  
