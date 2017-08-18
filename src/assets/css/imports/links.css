@@ -1,51 +1,39 @@
 /* email link */
 
-.email-link {
-    
-}
-
 .email-link:link {
-
+    color: var(--blue);
 }
 
 .email-link:visited {
-
+    color: var(--light-navy);
 }
 
 .email-link:focus {
-
-}
-
-.email-link:hover {
-
+    color: var(--sky);
 }
 
 .email-link:active {
-
+    text-decoration: underline;
 }
 
 /* about links */
 
 .about-link {
-    
+    text-decoration: none;
 }
 
 .about-link:link {
-
+    color: var(--navy);
 }
 
 .about-link:visited {
-
+    color: var(--light-navy)
 }
 
 .about-link:focus {
-
-}
-
-.about-link:hover {
-
+    color: var(--sky);
 }
 
 .about-link:active {
-
+    text-decoration: underline;
 }

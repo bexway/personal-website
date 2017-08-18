@@ -1,6 +1,7 @@
 @import "imports/reset.css";
 @import "imports/colors.css";
 @import "imports/fonts.css";
+@import "imports/links.css";
 
 /* MAIN CSS FILE */
 
@@ -14,6 +15,10 @@
     text-align: center
 }
 
+.about-text p {
+    margin-bottom: .5em;
+}
+
 .header{
     background-color: var(--dark-gray);
     text-align: center;
@@ -21,9 +26,15 @@
     padding: .75em;
 }
 
-.header * {
+.header p, header a {
+    font-size: 1.25em;
     margin: auto;
-    padding: 5px 0px;
+    padding-bottom: .5em;
+}
+
+.header-title{
+    font-size: 3em;
+    margin-bottom: .5em;
 }
 
 .link-bar {
@@ -35,13 +46,12 @@
 
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 .link-circle {
-    width: 1em;
-    height: 1em;
+    width: .75em;
+    height: .75em;
     background: var(--blue);;
     -moz-border-radius: .5em;
     -webkit-border-radius: .5em;
     border-radius: .5em;
-    margin: 0em 1em;
 }
 
 .main-content {
