@@ -72,76 +72,46 @@ table {
 
 /* email link */
 
-.email-link:link {
+.header-link:link {
     color: #3c86d9;
 }
 
-.email-link:visited {
+.header-link:visited {
     color: #5187a3;
 }
 
-.email-link:focus {
+.header-link:focus {
     color: #53c0cc;
 }
 
-.email-link:active {
+.header-link:active {
     text-decoration: underline;
 }
 
 /* about links */
 
-.about-link {
+.link-bar .content-link {
     text-decoration: none;
 }
 
-.about-link:link {
-    color: #375C6F;
-}
-
-.about-link:visited {
-    color: #5187a3
-}
-
-.about-link:focus {
-    color: #53c0cc;
-}
-
-.about-link:active {
+.proj-text .content-link {
     text-decoration: underline;
 }
 
-/* project links */
-
-.about-link:link {
+.content-link:link {
     color: #375C6F;
 }
 
-.about-link:visited {
+.content-link:visited {
     color: #5187a3
 }
 
-.about-link:focus {
+.content-link:focus {
     color: #53c0cc;
 }
 
-@-webkit-keyframes expand-circle {
-from {
-    border-radius: 100px;
-}
-
-to {
-    border-radius: 0px;
-}
-}
-
-@keyframes expand-circle {
-from {
-    border-radius: 100px;
-}
-
-to {
-    border-radius: 0px;
-}
+.content-link:active {
+    text-decoration: underline;
 }
 
 /* MAIN CSS FILE */
@@ -159,6 +129,10 @@ to {
 
 .about-text p {
     margin-bottom: .5em;
+}
+
+.footer{
+    background-color: #494949;
 }
 
 .header{
@@ -192,6 +166,19 @@ to {
     margin: 1.5em 0em;
 }
 
+.link-bar a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0em .75em;
+}
+
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 
 .link-circle {
@@ -199,6 +186,7 @@ to {
     height: .75em;
     background: #3c86d9;
     border-radius: .5em;
+    margin: 0em, .5em;
 }
 
 .main-content {
@@ -209,13 +197,11 @@ to {
     border-radius: 200px;
     max-height: 200px;
     max-width: 200px;
+    -webkit-transition: border-radius 1s ease-in-out;
+    transition: border-radius 1s ease-in-out;
 }
 
 .proj-img:hover{
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-    -webkit-animation-name: expand-circle;
-            animation-name: expand-circle;
     border-radius: 0px;
 }
 

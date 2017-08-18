@@ -2,7 +2,6 @@
 @import "imports/colors.css";
 @import "imports/fonts.css";
 @import "imports/links.css";
-@import "imports/animations.css";
 
 /* MAIN CSS FILE */
 
@@ -18,6 +17,10 @@
 
 .about-text p {
     margin-bottom: .5em;
+}
+
+.footer{
+    background-color: var(--dark-gray);
 }
 
 .header{
@@ -45,6 +48,13 @@
     margin: 1.5em 0em;
 }
 
+.link-bar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em .75em;
+}
+
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 .link-circle {
     width: .75em;
@@ -53,6 +63,7 @@
     -moz-border-radius: .5em;
     -webkit-border-radius: .5em;
     border-radius: .5em;
+    margin: 0em, .5em;
 }
 
 .main-content {
@@ -63,11 +74,10 @@
     border-radius: 200px;
     max-height: 200px;
     max-width: 200px;
+    transition: border-radius 1s ease-in-out;
 }
 
 .proj-img:hover{
-    animation-duration: 1s;
-    animation-name: expand-circle;
     border-radius: 0px;
 }
 

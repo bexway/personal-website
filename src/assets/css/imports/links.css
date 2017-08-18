@@ -1,53 +1,43 @@
 /* email link */
 
-.email-link:link {
+.header-link:link {
     color: var(--blue);
 }
 
-.email-link:visited {
+.header-link:visited {
     color: var(--light-navy);
 }
 
-.email-link:focus {
+.header-link:focus {
     color: var(--sky);
 }
 
-.email-link:active {
+.header-link:active {
     text-decoration: underline;
 }
 
 /* about links */
 
-.about-link {
+.link-bar .content-link {
     text-decoration: none;
 }
 
-.about-link:link {
-    color: var(--navy);
-}
-
-.about-link:visited {
-    color: var(--light-navy)
-}
-
-.about-link:focus {
-    color: var(--sky);
-}
-
-.about-link:active {
+.proj-text .content-link {
     text-decoration: underline;
 }
 
-/* project links */
-
-.about-link:link {
+.content-link:link {
     color: var(--navy);
 }
 
-.about-link:visited {
+.content-link:visited {
     color: var(--light-navy)
 }
 
-.about-link:focus {
+.content-link:focus {
     color: var(--sky);
+}
+
+.content-link:active {
+    text-decoration: underline;
 }
