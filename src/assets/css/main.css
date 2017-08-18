@@ -20,7 +20,15 @@
 }
 
 .footer{
+    padding: 1em 0em;
     background-color: var(--dark-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    font-size: 1.25em;
 }
 
 .header{
