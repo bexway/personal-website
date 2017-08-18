@@ -80,6 +80,7 @@ table {
 .about-text{
     font-size: 1.25em;
     line-height: 1.25em;
+    text-align: center
 }
 
 .header{
@@ -92,6 +93,19 @@ table {
 .header * {
     margin: auto;
     padding: 5px 0px;
+}
+
+.link-bar {
+    display: inline;
+}
+
+/* https://css-tricks.com/examples/ShapesOfCSS/ */
+
+.link-circle {
+    width: 1em;
+    height: 1em;
+    background: #3c86d9;
+    border-radius: .5em;
 }
 
 .main-content {
@@ -147,9 +161,17 @@ table {
     text-align: center;
 }
 
+.skills-list {
+    display: block;
+}
+
 .skills-list li {
-    display: list-item;
-    list-style-type: disc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 1.25em;
     line-height: 1.5em;
 }
@@ -157,4 +179,13 @@ table {
 .skills-list ul li {
     display: list-item;
     list-style-type: circle;
+}
+
+.ul-circle {
+    width: .25em;
+    height: .25em;
+    background: #3c86d9;
+    border-radius: .125em;
+    margin-right: .5em;
+    display: inline-block;
 }
