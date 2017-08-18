@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+.about-text{
+    font-size: 1.25em;
+    line-height: 1.25em;
+    text-align: center
+}
+
 .header{
     background-color: var(--dark-gray);
     text-align: center;
@@ -20,25 +26,42 @@
     padding: 5px 0px;
 }
 
+/* https://css-tricks.com/examples/ShapesOfCSS/ */
+.link-circle {
+    width: 1em;
+    height: 1em;
+    background: var(--blue);;
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;
+}
+
+.main-content {
+    display: block;
+}
+
 .proj-img{
     border-radius: 100px;
 }
 
 .proj-desc{
-    font-size: 1.25em
+    font-size: 1.25em;
 }
 
 .proj-elem{
-	display: flex;
-    justify-content: flex-start;
+	display: block;
+    /* justify-content: flex-start; */
     padding: 1em;
+    margin: 0em auto;
 }
 
 .proj-text{
     line-height: 2em;
+    padding: 0em .5em;
 }
 
 .proj-title {
+    display: block;
     font-size: 2em;
     font-weight: 200;
 }
@@ -46,11 +69,29 @@
 .section{
     font-family: var(--ff-quicksand);
     padding: .75em;
+    margin: 0em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .section-title{
+    width: 100%;
     font-size: 2em;
     color: var(--navy);
     font-weight: bold;
     line-height: 2em;
+    text-align: center;
+}
+
+.skills-list li {
+    display: list-item;
+    list-style-type: disc;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.skills-list ul li {
+    display: list-item;
+    list-style-type: circle;
 }
