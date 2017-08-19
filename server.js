@@ -7,6 +7,6 @@ var app = express();
 
 app.use(express.static(path.join(__dirname, '/dist')));
 
-require('./routes/htmlRoutes.js')(app);
+require(path.join(__dirname, '/routes/htmlRoutes.js'))(app);
 
 app.listen(port);
