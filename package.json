@@ -21,8 +21,10 @@
   },
   "homepage": "https://github.com/bexway/personal-website#readme",
   "devDependencies": {
-    "autoprefixer": "^7.1.2",
     "postcss": "^6.0.9",
+    "postcss-custom-properties": "^6.1.0",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
     "postcss-cssnext": "^3.0.2",
     "postcss-scss": "^1.0.2",
     "postcss-simple-vars": "^4.0.0",
@@ -31,10 +33,9 @@
     "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
-    "postcss": "^6.0.9",
-    "postcss-custom-properties": "^6.1.0",
-    "postcss-import": "^10.0.0",
-    "postcss-loader": "^2.0.6"
+    "express": "^4.15.4"
+  },
+  "engines": {
+    "node": "4.1.1"
   }
 }
