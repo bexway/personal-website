@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* http://frame.bloglovin.com/?post=5268129621&blog=13978127 */
+
+.fcolor-green{
+    color: #9cc411;
+}
+
+.fcolor-blue{
+    color: #3c86d9;
+}
+
+.fcolor-yellow{
+    color: #dbd709
+}
+
+.fcolor-dkpink{
+    color: #F4646A
+}
+
+.fcolor-dkteal{
+    color: #6CB1B1
+}
+
+.fcolor-lightteal{
+    color: #8ECECB
+}
+
+.fcolor-white{
+    color: white;
+}
+
+/* email link */
+
+.header-link:link {
+    color: #3c86d9;
+}
+
+.header-link:visited {
+    color: #5187a3;
+}
+
+.header-link:focus {
+    color: #53c0cc;
+}
+
+.header-link:active {
+    text-decoration: underline;
+}
+
+/* about links */
+
+.link-bar .content-link {
+    text-decoration: none;
+}
+
+.proj-text .content-link {
+    text-decoration: underline;
+}
+
+.content-link:link {
+    color: #375C6F;
+}
+
+.content-link:visited {
+    color: #5187a3
+}
+
+.content-link:focus {
+    color: #53c0cc;
+}
+
+.content-link:active {
+    text-decoration: underline;
+}
+
+/* MAIN CSS FILE */
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.about-text{
+    font-size: 1.25em;
+    line-height: 1.25em;
+    text-align: center
+}
+
+.about-text p {
+    margin-bottom: .5em;
+}
+
+.footer{
+    padding: 1em 0em;
+    background-color: #494949;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.footer a{
+    font-size: 1.25em;
+}
+
+.header{
+    background-color: #494949;
+    text-align: center;
+    font-family: 'Droid Sans Mono', monospace;
+    padding: .75em;
+}
+
+.header p, header a {
+    font-size: 1.25em;
+    margin: auto;
+    padding-bottom: .5em;
+}
+
+.header-title{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.link-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1.5em 0em;
+}
+
+.link-bar a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0em .75em;
+}
+
+/* https://css-tricks.com/examples/ShapesOfCSS/ */
+
+.link-circle {
+    width: .75em;
+    height: .75em;
+    background: #3c86d9;
+    border-radius: .5em;
+    margin: 0em, .5em;
+}
+
+.main-content {
+    display: block;
+}
+
+.proj-img{
+    border-radius: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    -webkit-transition: border-radius 1s ease-in-out;
+    transition: border-radius 1s ease-in-out;
+}
+
+.proj-img:hover{
+    border-radius: 0px;
+}
+
+.proj-desc{
+    font-size: 1.25em;
+}
+
+.proj-elem{
+	display: block;
+    padding: 1em;
+    margin: 0em auto;
+    width: 51%;
+}
+
+.proj-text{
+    line-height: 2em;
+    padding: 0em .5em;
+}
+
+.proj-title {
+    display: block;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.section{
+    font-family: 'Quicksand', sans-serif;
+    padding: .75em;
+    margin: 0em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.section-title{
+    width: 100%;
+    font-size: 2em;
+    color: #375C6F;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+}
+
+.skills-list {
+    display: block;
+}
+
+.skills-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.ul-circle {
+    width: .25em;
+    height: .25em;
+    background: #3c86d9;
+    border-radius: .5em;
+    margin-right: .5em;
+    display: inline-block;
+}
+
+.ul-ul-circle {
+    width: .4em;
+    height: .4em;
+    border: 2px solid #8ECECB;
+    border-radius: .5em;
+    margin-right: .5em;
+    display: inline-block;
+}
+  

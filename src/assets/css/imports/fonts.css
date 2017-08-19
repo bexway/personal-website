@@ -1,0 +1,32 @@
+:root {
+    --ff-quicksand: 'Quicksand', sans-serif;
+    --ff-mono: 'Droid Sans Mono', monospace;
+}
+
+.fcolor-green{
+    color: var(--green);
+}
+
+.fcolor-blue{
+    color: var(--blue);
+}
+
+.fcolor-yellow{
+    color: var(--yellow)
+}
+
+.fcolor-dkpink{
+    color: var(--dark-pink)
+}
+
+.fcolor-dkteal{
+    color: var(--dark-teal)
+}
+
+.fcolor-lightteal{
+    color: var(--light-teal)
+}
+
+.fcolor-white{
+    color: white;
+}

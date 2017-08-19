@@ -1,0 +1,43 @@
+/* email link */
+
+.header-link:link {
+    color: var(--blue);
+}
+
+.header-link:visited {
+    color: var(--light-navy);
+}
+
+.header-link:focus {
+    color: var(--sky);
+}
+
+.header-link:active {
+    text-decoration: underline;
+}
+
+/* about links */
+
+.link-bar .content-link {
+    text-decoration: none;
+}
+
+.proj-text .content-link {
+    text-decoration: underline;
+}
+
+.content-link:link {
+    color: var(--navy);
+}
+
+.content-link:visited {
+    color: var(--light-navy)
+}
+
+.content-link:focus {
+    color: var(--sky);
+}
+
+.content-link:active {
+    text-decoration: underline;
+}
