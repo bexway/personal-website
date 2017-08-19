@@ -5,8 +5,8 @@ var port = process.env.PORT || 3000;
 
 var app = express();
 
-app.use(express.static(__dirname + '/dist'));
+app.use(express.static(path.join(__dirname, '/dist')));
 
-require('../routes/htmlRoutes.js')(app);
+require('./routes/htmlRoutes.js')(app);
 
 app.listen(port);
