@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    // "start": "webpack-dev-server --open",
     "postcss": "postcss -o dist/main.css src/assets/css/main.css"
   },
   "repository": {
