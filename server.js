@@ -7,6 +7,8 @@ var app = express();
 
 app.use(express.static(path.join(__dirname, '/dist')));
 
-require(path.join(__dirname, '/routes/htmlRoutes.js'))(app);
+app.use(function(req, res) {
+    res.sendFile(path.join(__dirname, "/dist/index.html"));
+});
 
 app.listen(port);
