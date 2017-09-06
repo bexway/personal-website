@@ -20,19 +20,18 @@
                 {{/each}}
             </section>
             <section class="section skills-section">        
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Technical Skills</h2>
                 <ul class="skills-list">
-                    <li><div class="ul-circle"></div>HTML5</li>
-                    <li><div class="ul-circle"></div>CSS</li>
-                    <li><div class="ul-circle"></div>Javascript</li>
-                        <ul>
-                            <li><div class="ul-ul-circle"></div>Jquery</li>
-                        </ul>
-                    <li><div class="ul-circle"></div>Python</li>
-                    <li><div class="ul-circle"></div>NodeJS</li>
-                        <ul>
-                            <li><div class="ul-ul-circle"></div>Express</li>
-                        </ul>   
+                    {{#each skills}}
+                        <li><div class="ul-circle"></div>{{{skillName}}}</li>
+                        {{#if skillRelated}}
+                            <ul>
+                                {{#each skillRelated}}
+                                    <li><div class="ul-ul-circle"></div>{{{this}}}</li>
+                                {{/each}}
+                            </ul>
+                        {{/if}}
+                    {{/each}}
                 </ul>
             </section>
             <section class="section about-section">        
