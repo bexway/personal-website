@@ -1,0 +1,51 @@
+        <main class="main-content">
+            <section class="section projects-section">        
+                <h2 class="section-title">Projects</h2>
+                {{#each projects}}
+                    <div class="proj-elem">
+                        <img class="proj-img" src={{this.img}} alt="">
+                        <div class="proj-text">
+                            <h3 class="proj-title">{{{this.title}}}</h3>
+                            <p class="proj-langs"><span>LANGUAGE(S): {{{this.languages}}}</span> </p>
+                            <p class="proj-desc">{{{this.desc}}}</p>
+                            <a class="content-link" href={{this.repoLink}}>Github Repository</a>
+                            {{#if this.appLink}}
+                                <a class="content-link" href={{this.appLink}}>Live App</a>
+                            {{/if}}
+                            {{#if this.prevLink}}
+                                <a class="content-link" href={{this.prevLink}}>Previous Iterations</a>
+                            {{/if}}
+                        </div>
+                    </div>
+                {{/each}}
+            </section>
+            <section class="section skills-section">        
+                <h2 class="section-title">Technical Skills</h2>
+                <ul class="skills-list">
+                    {{#each skills}}
+                        <li><div class="ul-circle"></div>{{{skillName}}}</li>
+                        {{#if skillRelated}}
+                            <ul>
+                                {{#each skillRelated}}
+                                    <li><div class="ul-ul-circle"></div>{{{this}}}</li>
+                                {{/each}}
+                            </ul>
+                        {{/if}}
+                    {{/each}}
+                </ul>
+            </section>
+            <section class="section about-section">        
+                    <h2 class="section-title">About</h2>
+                    <div class="about-text">
+                        <p>I'm Bex, and I'm an optimistic, self-driven worker with a strong interest in web development. I'm currently in Northwestern University's Coding Boot Camp and loving everything I learn! Both the front and back ends of development interest me, and I'm working on my skills as a full-stack developer. I love coding and creating, and my favorite part is always having something new to learn.</p>
+                        <p>I've learned a lot in class and built some applications in a variety of languages. HTML, CSS, Javascript, NodeJS, and SQL are all in my wheelhouse, and I constantly improve my skills with each of them. In my spare time, I'm working on my Python skills. I've used Python for most of my personal projects, and it's my first and favorite programming language.</p>
+                        <div class="link-bar">
+                            <a href="https://github.com/bexway" class="content-link">Github</a>
+                            <div class="link-circle"></div>
+                            <a href="https://stackoverflow.com/users/6347659/bex-way" class="content-link">StackOverflow</a>
+                            <div class="link-circle"></div>
+                            <a href="https://www.linkedin.com/in/bex-way" class="content-link">LinkedIn</a>
+                        </div>
+                    </div>
+                </section>
+        </main>

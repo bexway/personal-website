@@ -1,8 +1,16 @@
 var path = require('path');
+var express = require("express");
+var projects = require("../data/projects.js");
+var skills = require("../data/skills.js");
 
-module.exports = function(app){
+var router = express.Router();
 
-  app.use(function(req, res){
-    res.sendFile(path.join(__dirname, "../dist/index.html"));
-  });
-};
+router.get("/", function(req, res) {
+  var indexObj = {
+    projects: projects,
+    skills: skills
+  };
+  res.render("index", indexObj);
+});
+
+module.exports = router;
