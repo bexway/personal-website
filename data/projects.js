@@ -21,7 +21,7 @@ var projects = [
         img: "https://farm5.staticflickr.com/4354/36367418100_7811cac8b9.jpg",
         title: "Psychology Experiment: Telic Infant",
         languages: "Matlab (Psychtoolbox)",
-        desc: "A script designed for Prof. Susan Hespos' <a href='http://sites.northwestern.edu/infantcognitionlab/'>Infant Cognition Lab</a>. It generates and displays the set of stimuli for a psychology experiment. It is currently in development, and is the latest in a series of experiments analyzing the relationship between objects and substances, and events and processes. <a href='https://sites.northwestern.edu/infantcognitionlab/files/2017/01/WellwoodHesposRips2017-1v84df0.pdf'>The results of previous experiments in this series have been published.</a>",
+        desc: "A script designed for Prof. Susan Hespos' <a class=\"content-link\" href='http://sites.northwestern.edu/infantcognitionlab/'>Infant Cognition Lab</a>. It generates and displays the set of stimuli for a psychology experiment. It is currently in development, and is the latest in a series of experiments analyzing the relationship between objects and substances, and events and processes. <a class=\"content-link\" href='https://sites.northwestern.edu/infantcognitionlab/files/2017/01/WellwoodHesposRips2017-1v84df0.pdf'>The results of previous experiments in this series have been published.</a>",
         repoLink: "https://github.com/NUinfantcognitionlab/TelicInfant",
         appLink: "",
         prevLink: "https://github.com/nu-childlab/Telic"
