@@ -1,0 +1,17 @@
+<main class="main-content">
+    <section class="section skills-section">        
+        <h2 class="section-title">Technical Skills</h2>
+        <ul class="skills-list">
+            {{#each skills}}
+                <li><div class="ul-circle"></div>{{{skillName}}}</li>
+                {{#if skillRelated}}
+                    <ul>
+                        {{#each skillRelated}}
+                            <li><div class="ul-ul-circle"></div>{{{this}}}</li>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+            {{/each}}
+        </ul>
+    </section>
+</main>
