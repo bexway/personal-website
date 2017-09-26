@@ -2,7 +2,7 @@ var express = require("express");
 var path = require("path");
 var handlebars = require("express-handlebars");
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 4000;
 
 var app = express();
 
@@ -26,3 +26,5 @@ app.use("/", routes);
 
 
 app.listen(port);
+
+console.log("App listening!")
