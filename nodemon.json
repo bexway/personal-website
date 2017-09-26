@@ -1,0 +1,12 @@
+{
+    "events": {
+      "restart": "npm run postcss"
+    },
+    "ext": "js json css html handlebars",
+    "verbose": true,
+    "watch": [
+      "dist/views",
+      "src/assets/css",
+      "./server.js"
+    ]
+  }

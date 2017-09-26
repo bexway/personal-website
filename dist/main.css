@@ -47,7 +47,7 @@ table {
 }
 
 .fcolor-blue{
-    color: #3c86d9;
+    color: #5d9cdf;
 }
 
 .fcolor-yellow{
@@ -73,11 +73,11 @@ table {
 /* email link */
 
 .header-link:link {
-    color: #3c86d9;
+    color: #5d9cdf;
 }
 
 .header-link:visited {
-    color: #5187a3;
+    color: #8ebae9;
 }
 
 .header-link:focus {
@@ -91,7 +91,7 @@ table {
 /* about links */
 
 .link-bar .content-link {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .proj-text .content-link {
@@ -99,11 +99,11 @@ table {
 }
 
 .content-link:link {
-    color: #375C6F;
+    color: #6CB1B1;
 }
 
 .content-link:visited {
-    color: #5187a3
+    color: #8ECECB
 }
 
 .content-link:focus {
@@ -135,15 +135,8 @@ table {
 .footer{
     padding: 1em 0em;
     background-color: #494949;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: block;
+    text-align: center;
 }
 
 .footer a{
@@ -200,7 +193,7 @@ table {
 .link-circle {
     width: .75em;
     height: .75em;
-    background: #3c86d9;
+    background: #5d9cdf;
     border-radius: .5em;
     margin: 0em, .5em;
 }
@@ -293,7 +286,7 @@ table {
 .ul-circle {
     width: .25em;
     height: .25em;
-    background: #3c86d9;
+    background: #5d9cdf;
     border-radius: .5em;
     margin-right: .5em;
     display: inline-block;

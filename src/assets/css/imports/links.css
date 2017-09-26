@@ -5,7 +5,7 @@
 }
 
 .header-link:visited {
-    color: var(--light-navy);
+    color: var(--light-blue);
 }
 
 .header-link:focus {
@@ -19,7 +19,7 @@
 /* about links */
 
 .link-bar .content-link {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .proj-text .content-link {
@@ -27,11 +27,11 @@
 }
 
 .content-link:link {
-    color: var(--navy);
+    color: var(--dark-teal);
 }
 
 .content-link:visited {
-    color: var(--light-navy)
+    color: var(--light-teal)
 }
 
 .content-link:focus {
