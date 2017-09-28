@@ -1,11 +1,11 @@
-/* email link */
+/* header link */
 
 .header-link:link {
     color: var(--blue);
 }
 
 .header-link:visited {
-    color: var(--light-blue);
+    color: var(--blue);
 }
 
 .header-link:focus {
@@ -16,7 +16,25 @@
     text-decoration: underline;
 }
 
-/* about links */
+/* social media link */
+
+.footer-link:link {
+    color: var(--light-blue);
+}
+
+.footer-link:visited {
+    color: var(--light-blue);
+}
+
+.footer-link:focus {
+    color: var(--sky);
+}
+
+.footer-link:active {
+    text-decoration: underline;
+}
+
+/* content links */
 
 .link-bar .content-link {
     text-decoration: underline;

@@ -70,14 +70,14 @@ table {
     color: white;
 }
 
-/* email link */
+/* header link */
 
 .header-link:link {
     color: #5d9cdf;
 }
 
 .header-link:visited {
-    color: #8ebae9;
+    color: #5d9cdf;
 }
 
 .header-link:focus {
@@ -88,7 +88,25 @@ table {
     text-decoration: underline;
 }
 
-/* about links */
+/* social media link */
+
+.footer-link:link {
+    color: #8ebae9;
+}
+
+.footer-link:visited {
+    color: #8ebae9;
+}
+
+.footer-link:focus {
+    color: #53c0cc;
+}
+
+.footer-link:active {
+    text-decoration: underline;
+}
+
+/* content links */
 
 .link-bar .content-link {
     text-decoration: underline;
@@ -192,7 +210,7 @@ table {
 }
 
 .footer{
-    padding: 1em 0em;
+    padding: 2em 0em;
     background-color: #494949;
     display: block;
     text-align: center;
@@ -233,7 +251,7 @@ table {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 1.5em 0em;
+    margin-bottom: 1.5em;
 }
 
 .link-bar a {
