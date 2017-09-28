@@ -20,6 +20,12 @@
     margin-bottom: .5em;
 }
 
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .footer{
     padding: 1em 0em;
     background-color: var(--dark-gray);
@@ -29,6 +35,7 @@
 
 .footer a{
     font-size: 1.25em;
+    flex-shrink: 0;
 }
 
 .header{
@@ -77,6 +84,7 @@
 
 .main-content {
     display: block;
+    flex: 1 0 auto;
 }
 
 .proj-img{
