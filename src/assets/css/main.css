@@ -2,6 +2,7 @@
 @import "imports/colors.css";
 @import "imports/fonts.css";
 @import "imports/links.css";
+@import "imports/navbar.css";
 
 /* MAIN CSS FILE */
 
@@ -42,7 +43,7 @@
     background-color: var(--dark-gray);
     text-align: center;
     font-family: var(--ff-mono);
-    padding: .75em;
+    padding-top: .75em;
     width: 100%;
 }
 

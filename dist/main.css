@@ -99,11 +99,11 @@ table {
 }
 
 .content-link:link {
-    color: #6CB1B1;
+    color: #375C6F;
 }
 
 .content-link:visited {
-    color: #8ECECB
+    color: #5187a3
 }
 
 .content-link:focus {
@@ -112,6 +112,54 @@ table {
 
 .content-link:active {
     text-decoration: underline;
+}
+
+/* navbar link */
+
+.navbar-link:link {
+    color: #375C6F;
+    text-decoration: none;
+}
+
+.navbar-link:visited {
+    color: #5187a3;
+}
+
+.navbar-link:focus {
+    color: #53c0cc;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #CACACA;
+    margin-top: 1em;
+}
+
+.navbar-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-ul .navbar-item {
+    padding: 1em .2em;
+}
+
+@media (max-height: 680px){
+    .navbar-ul .navbar-item {
+        width: 50%;
+        padding: 1em .2em;
+    }
 }
 
 /* MAIN CSS FILE */
@@ -160,7 +208,7 @@ table {
     background-color: #494949;
     text-align: center;
     font-family: 'Droid Sans Mono', monospace;
-    padding: .75em;
+    padding-top: .75em;
     width: 100%;
 }
 

@@ -27,11 +27,11 @@
 }
 
 .content-link:link {
-    color: var(--dark-teal);
+    color: var(--navy);
 }
 
 .content-link:visited {
-    color: var(--light-teal)
+    color: var(--light-navy)
 }
 
 .content-link:focus {
@@ -40,4 +40,19 @@
 
 .content-link:active {
     text-decoration: underline;
+}
+
+/* navbar link */
+
+.navbar-link:link {
+    color: var(--navy);
+    text-decoration: none;
+}
+
+.navbar-link:visited {
+    color: var(--light-navy);
+}
+
+.navbar-link:focus {
+    color: var(--sky);
 }
