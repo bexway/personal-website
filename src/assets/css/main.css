@@ -69,13 +69,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0em .75em;
+    margin: 0em .5em;
 }
 
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 .link-circle {
-    width: .75em;
-    height: .75em;
+    width: 10px;
+    height: 10px;
     background: var(--blue);;
     -moz-border-radius: .5em;
     -webkit-border-radius: .5em;

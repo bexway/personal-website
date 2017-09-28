@@ -173,7 +173,7 @@ table {
     padding: 1em .2em;
 }
 
-@media (max-height: 680px){
+@media (max-width: 680px){
     .navbar-ul .navbar-item {
         width: 50%;
         padding: 1em .2em;
@@ -264,14 +264,14 @@ table {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 0em .75em;
+    margin: 0em .5em;
 }
 
 /* https://css-tricks.com/examples/ShapesOfCSS/ */
 
 .link-circle {
-    width: .75em;
-    height: .75em;
+    width: 10px;
+    height: 10px;
     background: #5d9cdf;
     border-radius: .5em;
     margin: 0em, .5em;
