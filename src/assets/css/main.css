@@ -88,6 +88,10 @@
     flex: 1 0 auto;
 }
 
+.pdf-embed {
+    margin: auto;
+}
+
 .proj-img{
     border-radius: 200px;
     max-height: 200px;
@@ -150,6 +154,10 @@
     align-items: center;
     font-size: 1.25em;
     line-height: 1.5em;
+}
+
+.text-center { 
+    text-align: center;
 }
 
 .ul-circle {
