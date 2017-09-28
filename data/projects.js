@@ -9,12 +9,12 @@ var projects = [
         prevLink: ""
     },
     {
-        img: "https://farm5.staticflickr.com/4426/36261967860_858a6ddcf7.jpg",
-        title: "Friend-Finder",
-        languages: "Node.js (Express), HTML, CSS, Javascript",
-        desc: "A personality quiz app that allows the user to take a quiz and see people similar to them.",
-        repoLink: "https://github.com/bexway/FriendFinder",
-        appLink: "https://powerful-plateau-85487.herokuapp.com/",
+        img: "https://farm5.staticflickr.com/4483/23512960868_3611a51188_b.jpg",
+        title: "News Scraper",
+        languages: "Node.js (Express), HTML, CSS, Javascript, MongoDB, Mongoose",
+        desc: "A web scraping app that scrapes headlines and summaries from a news website.",
+        repoLink: "https://github.com/bexway/news-scraper",
+        appLink: "https://serene-inlet-66786.herokuapp.com/",
         prevLink: ""
     },
     {
@@ -25,6 +25,15 @@ var projects = [
         repoLink: "https://github.com/NUinfantcognitionlab/TelicInfant",
         appLink: "",
         prevLink: "https://github.com/nu-childlab/Telic"
+    },
+    {
+        img: "https://farm5.staticflickr.com/4426/36261967860_858a6ddcf7.jpg",
+        title: "Friend-Finder",
+        languages: "Node.js (Express), HTML, CSS, Javascript",
+        desc: "A personality quiz app that allows the user to take a quiz and see people similar to them.",
+        repoLink: "https://github.com/bexway/FriendFinder",
+        appLink: "https://powerful-plateau-85487.herokuapp.com/",
+        prevLink: ""
     },
     {
         img: "https://farm5.staticflickr.com/4341/36261967790_883feee271.jpg",

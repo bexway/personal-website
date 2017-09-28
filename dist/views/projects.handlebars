@@ -1,0 +1,22 @@
+<main class="main-content">
+    <section class="section projects-section">        
+        <h2 class="section-title">Projects</h2>
+        {{#each projects}}
+            <div class="proj-elem">
+                <img class="proj-img" src={{this.img}} alt="">
+                <div class="proj-text">
+                    <h3 class="proj-title">{{{this.title}}}</h3>
+                    <p class="proj-langs"><span>LANGUAGE(S): {{{this.languages}}}</span> </p>
+                    <p class="proj-desc">{{{this.desc}}}</p>
+                    <a class="content-link" href={{this.repoLink}}>Github Repository</a>
+                    {{#if this.appLink}}
+                        <a class="content-link" href={{this.appLink}}>Live App</a>
+                    {{/if}}
+                    {{#if this.prevLink}}
+                        <a class="content-link" href={{this.prevLink}}>Previous Iterations</a>
+                    {{/if}}
+                </div>
+            </div>
+        {{/each}}
+    </section>
+</main>
