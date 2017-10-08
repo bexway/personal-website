@@ -5,12 +5,15 @@ var skills = [
     },
     {
         skillName: "CSS3",
-        skillRelated: []
+        skillRelated: [
+            "PostCSS"
+        ]
     },
     {
         skillName: "Javascript",
         skillRelated: [
-            "Jquery"
+            "Jquery",
+            "React"
         ]
     },
     {
@@ -20,6 +23,17 @@ var skills = [
     {
         skillName: "Python",
         skillRelated: []
+    },
+    {
+        skillName: "SQL",
+        skillRelated: []
+    },
+    {
+        skillName: "NoSQL",
+        skillRelated: [
+            "Mongo DB",
+            "Mongoose"
+        ]
     },
     {
         skillName: "MatLab",
