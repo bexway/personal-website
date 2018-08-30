@@ -6,17 +6,6 @@ var fs = require('fs');
 
 var router = express.Router();
 
-router.get('/pdf/resume', function (req, res) {
-  fs.readFile(__dirname + "/../data/BexWayResume.pdf" , function (err,data){
-      res.contentType("application/pdf");
-      res.send(data);
-  });
-});
-
-router.get("/resume", function(req, res) {
-  res.render("resume");
-});
-
 router.get("/projects", function(req, res) {
   var projectsObj = {
     projects: projects,
